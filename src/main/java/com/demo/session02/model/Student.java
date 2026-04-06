@@ -12,6 +12,9 @@ public class Student {
         this.score = score;
     }
 
+    public Student(String sv001, String nguyễnMinhAnh, String khoaHọcMáyTính, int i, double v) {
+    }
+
     public String getFullName() {
         return fullName;
     }
@@ -27,4 +30,6 @@ public class Student {
     public void setScore(int score) {
         this.score = score;
     }
+
+
 }
